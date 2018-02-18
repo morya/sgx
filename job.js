@@ -21,7 +21,7 @@ page.open(url, function() {
                 ];
 
                 var content = JSON.stringify(items);
-                console.log("content=  %s", content);
+                console.log(content);
                 arr.push(items);
             });
 
